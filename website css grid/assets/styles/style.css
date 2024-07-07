@@ -1,0 +1,129 @@
+.container {
+    display: grid;
+    grid-template: 10% 1fr 15%/1fr 20%;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    grid-area: 1/1/2/3;
+
+    background-color: lightgray;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main {
+    grid-area: 2/1/3/2;
+
+    background-color: rgb(241, 221, 181);
+    text-align: center;
+}
+
+
+.sidebar {
+    grid-area: 2/2/3/3;
+    
+    background-color: rgb(195, 231, 195);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.footer {
+    grid-area: 3/1/4/3;
+
+    background-color: lightgray;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template: 2fr 1fr 1fr/1fr 1fr;
+    gap: 1rem;
+
+    width: 98%;
+    height: 96%;
+    background-color: rgb(241, 221, 181);
+    padding: 15px;
+}
+
+.grid-item-m1 {
+    grid-area: 1/1/2/3;
+
+    background-color: rgb(241, 221, 181);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.grid-item-m2 {
+    grid-area: 2/1/3/2;
+
+    background-color: rgb(238, 194, 113);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.grid-item-m3 {
+    grid: 2/2/3/3;
+
+    background-color: rgb(238, 194, 113);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.grid-item-m4 {
+    grid-area: 3/1/4/3;
+
+    background-color: rgb(238, 194, 113);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer-grid-container {
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+    width: 99%;
+    height: 85%;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.grid-item-f1 {
+    grid-area: 1/1/2/2;
+
+    background-color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.grid-item-f2 {
+    grid-area: 1/2/2/3;
+
+    background-color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.grid-item-f3 {
+    grid-area: 1/3/2/4;
+
+    background-color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.grid-item-f4 {
+    grid-area: 1/4/2/5;
+
+    background-color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
